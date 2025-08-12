@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #2A2A2A;
+    color: white;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav-item {
+    margin-right: 20px;
+}
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+.nav-item a:hover {
+    text-decoration: underline;
+}
+.social-icons {
+    display: flex;
+}
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+.hero {
+  background-color: #1a1a1a;
+  color: white;
+  height: 100vh; /* Full viewport height */
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-image img {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.cta-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #00ff99; /* Bright green */
+  color: #1a1a1a; /* Dark text for contrast */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 255, 153, 0.3);
+}
+
+.cta-button:hover {
+  background-color: #00cc77; /* Slightly darker green */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 255, 153, 0.4);
+}
+.site-footer {
+  background-color: #111;
+  padding: 4px 12px; /* Reduced padding */
+  font-size: 12px;   /* Smaller text */
+  color: #ccc;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instagram-icon {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0.7);
+  transition: filter 0.3s ease;
+}
+
+.instagram-icon:hover {
+  filter: brightness(1);
+}
+
+.copyright {
+  margin: 0; /* Remove default paragraph margin */
+}
